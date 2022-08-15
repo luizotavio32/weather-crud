@@ -1,0 +1,28 @@
+{
+  "name": "weather-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "yes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "swagger-autogen": "node swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizotavio32/weather-crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizotavio32/weather-crud/issues"
+  },
+  "homepage": "https://github.com/luizotavio32/weather-crud#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "swagger-autogen": "^2.21.5",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
