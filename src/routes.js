@@ -3,7 +3,9 @@ const router = express.Router()
 
 const weatherController = require('./controllers/weatherController')
 
-router.get('/weather/', async (req, res) => {
+router.get('/weather/:city', async (req, res) => {
+
+    // #swagger.tags = ['City']
     const city = req.params.city;
 
     let objectReturn = await weatherController.getWeatherByCity(city);

@@ -13,6 +13,9 @@
   "paths": {
     "/weather/{city}": {
       "get": {
+        "tags": [
+          "City"
+        ],
         "description": "",
         "parameters": [
           {
